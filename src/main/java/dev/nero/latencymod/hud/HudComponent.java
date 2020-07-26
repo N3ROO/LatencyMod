@@ -26,7 +26,7 @@ public class HudComponent {
      * Renders the component (writes the text at the given position)
      */
     public void render() {
-        Minecraft.getInstance().fontRenderer.func_238405_a_(new MatrixStack(), text, x, y, 0);
+        Minecraft.getInstance().fontRenderer.func_238405_a_(new MatrixStack(), text, x, y, -1);
     }
 
     /**
